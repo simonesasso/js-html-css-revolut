@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+li:hover{
+  cursor: pointer;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+main{
+  height: 100vh;
+  background-color: blue;
+}
+/* NAVBAR ----------------------------*/
+nav{
+  padding: 0 50px;
+  height: 80px;
+  background-color: green;
+}
+.nav-sx{
+  float: left;
+  width: 30%;
+  height: 100%;
+  padding-top: 31px;
+}
+
+.nav-dx{
+  float: left;
+  width: 70%;
+  height: 100%;
+  padding-top: 31px;
+}
+.li-right{
+  float: right;
+  padding: 0 10px;
+}
+.li-left{
+  float: left;
+  padding: 0 10px;
+}
+/* MENU NAVBAR ----------------------*/
+.li-accounts-menu{
+  padding: 5px;
+  background-color: red;
+  width: 80px;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  right: 140px;
+  display: none;
+}
+.li-accounts-menu>ul,li{
+  padding: 5px 0;
+}
+.li-products-menu{
+  padding: 5px;
+  background-color: red;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  right: 140px;
+  display: none;
+}
+.li-products-menu>ul,li{
+  padding: 5px 0;
+}
+.li-company-menu{
+  padding: 5px;
+  background-color: red;
+  width: 80px;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  right: 295px;
+  display: none;
+}
+.li-company-menu>ul,li{
+  padding: 5px 0;
+}
+.li-help-menu{
+  padding: 5px;
+  background-color: red;
+  width: 80px;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  right: 360px;
+  display: none;
+}
+.li-help-menu>ul,li{
+  padding: 5px 0;
+}
