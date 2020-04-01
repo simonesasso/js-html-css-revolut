@@ -28,3 +28,15 @@ $("main").click(function () {
   $(".li-products-menu").hide();
   $(".li-help-menu").hide();
 })
+// parte responsive---------------------------------------
+$("#chiudi").click(function () {
+  $(".resp-menu-container").removeClass("show");
+  $(".ul-men-resp").removeClass("show");
+})
+$("#hamburger").click(function () {
+  $(".resp-menu-container").addClass("show");
+})
+$(".li-men-resp").click(function () {
+  $(this).siblings().toggleClass("show");
+
+})
