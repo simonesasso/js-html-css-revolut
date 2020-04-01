@@ -131,7 +131,7 @@ nav{
   .resp-menu-container{
     display: none;
     padding: 15px 35px;
-    height: 100vh;
+    height: 101vh;
     width: 100vw;
     position: absolute;
     top: 0;
@@ -157,9 +157,10 @@ nav{
     border-radius: 12px;
   }
   .sez-3{
-    padding-top: 80px;
-    text-align: center;
-  }
+  text-align: center;
+  padding: 30px;
+ }
+
 
   .ul-men-resp{
     display: none;
