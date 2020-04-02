@@ -1,23 +1,23 @@
-$("#li-accounts").click(function () {
-  $(".li-accounts-menu").toggle();
+$("#li-accounts").mouseenter(function () {
+  $(".li-accounts-menu").show();
   $(".li-products-menu").hide();
   $(".li-help-menu").hide();
   $(".li-company-menu").hide();
 })
-$("#li-products").click(function () {
-  $(".li-products-menu").toggle();
+$("#li-products").mouseenter(function () {
+  $(".li-products-menu").show();
   $(".li-accounts-menu").hide();
   $(".li-help-menu").hide();
   $(".li-company-menu").hide();
 })
-$("#li-help").click(function () {
-  $(".li-help-menu").toggle();
+$("#li-help").mouseenter(function () {
+  $(".li-help-menu").show();
   $(".li-accounts-menu").hide();
   $(".li-products-menu").hide();
   $(".li-company-menu").hide();
 })
-$("#li-company").click(function () {
-  $(".li-company-menu").toggle();
+$("#li-company").mouseenter(function () {
+  $(".li-company-menu").show();
   $(".li-accounts-menu").hide();
   $(".li-products-menu").hide();
   $(".li-help-menu").hide();
