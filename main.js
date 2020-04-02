@@ -38,5 +38,5 @@ $("#hamburger").click(function () {
 })
 $(".li-men-resp").click(function () {
   $(this).siblings().toggleClass("show");
-
+  $(".li-men-resp").not(this).siblings().removeClass("show");
 })
